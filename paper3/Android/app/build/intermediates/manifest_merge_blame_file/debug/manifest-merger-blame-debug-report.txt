@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2019 The TensorFlow Authors. All Rights Reserved.
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="org.tensorflow.lite.examples.imagesegmentation"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml
+25
+26    <!-- <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="29"/> -->
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:22:3-63
+27-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:22:20-60
+28
+29    <uses-feature android:name="android.hardware.camera.any" />
+29-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:23:3-62
+29-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:23:17-59
+30
+31    <application
+31-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:24:3-41:17
+32        android:allowBackup="true"
+32-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:25:7-33
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.1.0] C:\Users\lhy\.gradle\caches\transforms-2\files-2.1\8a87ae4be5fdf7e2c871db4c1f3c9fc8\core-1.1.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:26:7-41
+36        android:label="@string/tfe_is_app_name"
+36-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:27:7-46
+37        android:roundIcon="@mipmap/ic_launcher"
+37-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:28:7-46
+38        android:supportsRtl="true"
+38-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:29:7-33
+39        android:testOnly="true"
+40        android:theme="@style/AppTheme.ImageSegmentation" >
+40-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:30:7-56
+41        <activity
+41-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:32:9-40:20
+42            android:name="org.tensorflow.lite.examples.imagesegmentation.MainActivity"
+42-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:33:13-41
+43            android:exported="true"
+43-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:35:13-36
+44            android:screenOrientation="portrait" >
+44-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:34:13-49
+45            <intent-filter>
+45-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:36:13-39:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:37:17-69
+46-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:37:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:38:17-77
+48-->F:\AndroidProject\examples\lite\examples\image_segmentation\android\app\src\main\AndroidManifest.xml:38:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\lhy\.gradle\caches\transforms-2\files-2.1\67cd4f5d57f3c86ead2d76cf2f7ffc63\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+53            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+53-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\lhy\.gradle\caches\transforms-2\files-2.1\67cd4f5d57f3c86ead2d76cf2f7ffc63\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+54            android:authorities="org.tensorflow.lite.examples.imagesegmentation.lifecycle-process"
+54-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\lhy\.gradle\caches\transforms-2\files-2.1\67cd4f5d57f3c86ead2d76cf2f7ffc63\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+55            android:exported="false"
+55-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\lhy\.gradle\caches\transforms-2\files-2.1\67cd4f5d57f3c86ead2d76cf2f7ffc63\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+56            android:multiprocess="true" />
+56-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\lhy\.gradle\caches\transforms-2\files-2.1\67cd4f5d57f3c86ead2d76cf2f7ffc63\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+57    </application>
+58
+59</manifest>

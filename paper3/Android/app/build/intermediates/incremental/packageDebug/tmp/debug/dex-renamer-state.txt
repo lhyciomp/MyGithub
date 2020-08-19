@@ -1,0 +1,7 @@
+#Sat Aug 15 09:29:20 CST 2020
+base.0=F\:\\AndroidProject\\examples\\lite\\examples\\image_segmentation\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=F\:\\AndroidProject\\examples\\lite\\examples\\image_segmentation\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
