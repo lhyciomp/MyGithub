@@ -1,3 +1,10 @@
+This is the java demo to deply our saliency detection model with tensorflow lite. The whole project is based on the tensorflow Image segmentation android sample. Following is the steps to set the enviroment. Our trained weight is under the app/src/main/assets. You can put your model in the path and modify the setting in the  app/src/main/java/org/tensorflow/lite/examples/imagesegmentation/ImageSegmentationModelExecutor.kt
+
+Our model is based on the paper: LF3Net: Leader-follower Feature Fusing Network for Fast Saliency Detection, which is under review. We will release the whole paper and the trained weights in the further.
+
+The video of the app :[https://www.bilibili.com/video/BV1zZ4y1M7Nm/]
+
+
 # Image Segmentation Android sample.
 
 The used model, DeepLab
